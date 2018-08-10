@@ -8,7 +8,7 @@
 
 
 	<!-- load the properties file:knight_data.properties -->
-	<context:property-placeholder location="classpath:knight_data.properties" />
+	<context:property-placeholder location="classpath:data.properties" />
 	
 	<!-- 利用建構子注入 屬性-->
 	<bean id="ninja" class="entity.Ninja">
